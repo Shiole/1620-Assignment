@@ -13,13 +13,36 @@
 <body>
     
     <div class="sidenav">
-        <a href="Page1.html">Contacts</a>
-        <a href="Page2.html">Create New Contact +</a>
+        <a href="Contacts_Menu.html">Contacts</a>
+        <a href="New_Contact.html">Create New Contact +</a>
         <a href="#">Show Favourites</a>
     </div>
 
     <main>
+        <form>
+            <img src="../Images/icon_2127823.png" alt="Avatar" class="contact_icon">
+            <ul>
+                <li for="name"></li>
+                <input typ="text" id="name" name="contact_name" placeholder="Contact Name">
 
+                <li for="phone"></li>
+                <input typ="text" id="phone" name="contact_phone" placeholder="Contact Phone">
+                <button type="button" class="add">+</button>
+
+                <li for="address"></li>
+                <input typ="text" id="address" name="contact_address" placeholder="Contact Address">
+                <button type="button" class="add">+</button>
+
+                <li for="name"></li>
+                <input typ="email" id="email" name="contact_email" placeholder="Contact Email">
+                <button type="button" class="add">+</button>
+
+                <div class="submittion">
+                    <button type="submit" class="submit">Save Contact</button>
+                    <button type="button" class="cancel">Cancel</button>
+                </div>
+            </ul>
+        </form>
     </main>
     
 </body>

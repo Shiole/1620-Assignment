@@ -78,3 +78,53 @@ main {
 .contact:hover {
     background-color: #907aa9;
 }
+
+
+/* New Contact Form */
+
+.form {
+    justify-content: center;
+}
+
+form ul {
+    list-style-type: none;
+}
+
+form ul li {
+    margin-top: 1rem;
+}
+
+button {
+    border-radius: .2rem;
+    border-width: 0rem;
+    padding: .5rem;
+    color: #e0def4;
+}
+
+button:hover {
+    background-color: #eee9e6;
+}
+
+.add {
+    background-color: none;
+    font-weight: bold;
+    color: #575279;
+}
+
+.submittion {
+    margin-top: 1rem;
+}
+
+.submit {
+    background-color: #3e8fb0;
+}
+
+.cancel {
+    background-color: #b4637a;
+}
+
+.contact_icon {
+    border-radius: 50%;
+    max-height: 6rem;
+    margin-left: 4rem;
+}
