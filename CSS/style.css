@@ -128,3 +128,14 @@ button:hover {
     max-height: 6rem;
     margin-left: 4rem;
 }
+
+
+/* Contact Profile Page */
+
+.edit {
+    background-color: #286983;
+}
+
+.close {
+    background-color: #907aa9;
+}
