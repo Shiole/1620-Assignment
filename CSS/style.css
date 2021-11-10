@@ -43,3 +43,38 @@ body {
     font-size: .8rem;
     text-align: center;
 }
+
+
+/* Main Content */
+main {
+    background-color: faf4ed;
+    margin-left: 18rem;
+    margin-top: 5rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+/* Contacts */
+.contact {
+    flex-basis: 7rem;
+    flex-grow: 1;
+    background-color: #9893a5;
+    max-width: 7rem;
+    min-height: 3rem;
+    padding: 2rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-decoration: none;
+    color: #e0def4;
+    display: block;
+}
+
+.contact:hover {
+    background-color: #907aa9;
+}
