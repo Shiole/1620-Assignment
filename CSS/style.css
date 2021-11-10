@@ -1,0 +1,45 @@
+/* Global */
+* {
+    font-size: 20px;
+    font-family: Quicksand;
+}
+
+body {
+    background-color: #fffaf3;
+}
+
+
+/* Sidebar menu */
+.sidenav {
+    height: 100%;
+    width: 15rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #9ccfd8;
+    overflow: hidden;
+}
+
+.sidenav a {
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #575279;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #eee9e6;
+}
+
+.sidenav a:first-of-type {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.sidenav a:not(:first-child) {
+    font-size: .8rem;
+    text-align: center;
+}
