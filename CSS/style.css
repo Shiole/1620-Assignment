@@ -12,7 +12,7 @@ body {
 /* Sidebar menu */
 .sidenav {
     height: 100%;
-    width: 15rem;
+    width: 13rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -23,7 +23,6 @@ body {
 .sidenav a {
     padding: 1rem;
     text-decoration: none;
-    font-size: 1rem;
     color: #575279;
     display: block;
 }
@@ -48,7 +47,7 @@ body {
 /* Main Content */
 main {
     background-color: faf4ed;
-    margin-left: 18rem;
+    margin-left: 16rem;
     margin-top: 5rem;
 }
 
@@ -56,6 +55,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    gap: 2rem;
 }
 
 
@@ -67,8 +67,6 @@ main {
     max-width: 7rem;
     min-height: 3rem;
     padding: 2rem;
-    margin-right: 3rem;
-    margin-bottom: 3rem;
     text-align: center;
     text-decoration: none;
     color: #e0def4;
@@ -127,4 +125,87 @@ button:hover {
     border-radius: 50%;
     max-height: 6rem;
     margin-left: 4rem;
+}
+
+
+/* Contact Profile Page */
+
+.edit {
+    background-color: #286983;
+}
+
+.close {
+    background-color: #907aa9;
+}
+
+@media (max-width: 800px) {
+
+    .sidenav {
+        width: 7rem;
+    }
+    
+    .sidenav a:first-of-type {
+        margin-left: .5rem;
+        margin-top: .5rem;
+        font-size: .9rem;
+    }
+    
+    .sidenav a:not(:first-child) {
+        font-size: .6rem;
+    }
+
+    main {
+        margin-left: 8rem;
+        margin-top: 3rem;
+    }
+
+    .container {
+        gap: 1rem;
+    }
+
+    .contact {
+        max-width: 2.5rem;
+        min-height: 1rem;
+        font-size: .5rem;
+        padding: 1rem;
+        margin: 1vw
+    }
+
+}
+
+@media (max-width: 500px) {
+    .sidenav {
+        height: 4rem;
+        width: 100%;
+        top: 0;
+        text-align: center;
+    }
+
+    .sidenav a {
+        padding: .2rem;
+        text-decoration: none;
+        color: #575279;
+    }
+
+    .sidenav a:not(:first-child) {
+        display: inline-flex;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .container {
+        gap: .3rem;
+        align-content: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .contact {
+        margin: 2vw;
+    }
+    
+    main {
+        margin: auto;
+        margin-top: 5rem;
+    }
 }
