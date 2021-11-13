@@ -6,6 +6,7 @@
 
 body {
     background-color: #fffaf3;
+    display: flex;
 }
 
 
@@ -79,11 +80,6 @@ main {
 
 
 /* New Contact Form */
-
-.form {
-    justify-content: center;
-}
-
 form ul {
     list-style-type: none;
 }
@@ -95,7 +91,7 @@ form ul li {
 button {
     border-radius: .2rem;
     border-width: 0rem;
-    padding: .5rem;
+    padding: .4rem;
     color: #e0def4;
 }
 
@@ -106,6 +102,7 @@ button:hover {
 .add {
     background-color: none;
     font-weight: bold;
+    padding: .2rem .4rem .2rem .4rem;
     color: #575279;
 }
 
@@ -138,8 +135,11 @@ button:hover {
     background-color: #907aa9;
 }
 
+
+/* Responsive Breakpoints*/
 @media (max-width: 800px) {
 
+    /* Navigation */
     .sidenav {
         width: 7rem;
     }
@@ -154,11 +154,15 @@ button:hover {
         font-size: .6rem;
     }
 
+
+    /* Content */
     main {
         margin-left: 8rem;
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 
+
+    /* Contact blocks*/
     .container {
         gap: 1rem;
     }
@@ -169,6 +173,30 @@ button:hover {
         font-size: .5rem;
         padding: 1rem;
         margin: 1vw
+    }
+
+
+    /* New contact form*/
+
+    form ul li {
+        margin-top: .3rem;
+    }
+
+    input {
+        font-size: .7rem;
+    }
+
+    button {
+        font-size: .7rem;
+        padding: .3rem;
+    }
+
+    .submittion {
+        margin-top: .5rem;
+    }
+
+    .contact_icon {
+        max-height: 3.5rem;
     }
 
 }
@@ -207,5 +235,9 @@ button:hover {
     main {
         margin: auto;
         margin-top: 5rem;
+    }
+
+    form {
+        margin: auto;
     }
 }
