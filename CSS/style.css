@@ -52,7 +52,7 @@ main {
     margin-top: 5rem;
 }
 
-.container {
+.contact_list {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -100,7 +100,7 @@ button:hover {
 }
 
 .add {
-    background-color: none;
+    background-color: transparent;
     font-weight: bold;
     padding: .2rem .4rem .2rem .4rem;
     color: #575279;
@@ -162,7 +162,7 @@ button:hover {
 
 
     /* Contact blocks*/
-    .container {
+    .contact_list {
         gap: 1rem;
     }
 
@@ -229,7 +229,7 @@ button:hover {
         margin-left: 1rem;
     }
 
-    .container {
+    .contact_list {
         gap: .3rem;
         align-content: center;
         justify-content: center;
